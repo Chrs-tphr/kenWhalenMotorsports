@@ -1,0 +1,266 @@
+@charset "utf-8";
+/* CSS Document */
+/*----------------------------------------*/
+html/*site background for home page*/
+{
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size:cover;
+	background-image:url(img/R07-NASCAR-V-8-head-and-pistons.jpg);
+	opacity:0.90;
+}
+/*----------------------------------------*/
+#home/*site background for home page*/
+{
+	
+}
+/*----------------------------------------*/
+#services/*site background for services page*/
+{
+	
+}
+/*----------------------------------------*/
+#projects/*site background for projects page*/
+{
+	
+}
+/*----------------------------------------*/
+#racing/*site background for racing page*/
+{
+	
+}
+/*----------------------------------------*/
+#schedule/*site background for schedule page*/
+{
+	
+}
+/*----------------------------------------*/
+#sponsors/*site background for sponsors page*/
+{
+	
+}
+/*----------------------------------------*/
+#contact/*site background for contact page*/
+{
+	
+}
+/*----------------------------------------*/
+a/*no decoration for all links*/
+{
+	text-decoration: none;
+	color: black;
+}
+/*----------------------------------------*/
+.headerContainer/*div for site title and navigation buttons*/
+{
+	padding:10px;
+}
+/*----------------------------------------*/
+.headerBackground/*site header size, color and background*/
+{
+}
+/*----------------------------------------*/
+#headerText/*site header text styling*/
+{
+	font-size: 50px;
+	font-weight: bold;
+	text-shadow:white 1px 1px;
+	color:#990000;
+}
+/*----------------------------------------*/
+.navBarButton/*site navigation links*/
+{
+	border: 2px solid #900;
+	border-radius: 5px;
+	margin-left: 5px;
+	margin-top: 15px;
+	background-color: white;
+	height: 20px;
+	min-width:64px;
+	width: 12%;
+	float: left;
+	text-align: center;
+	font-weight: bold;
+}
+/*----------------------------------------*/
+.navBarButton:hover/*site navigation links when hovered*/
+{
+	border-color:#F00;
+	border-radius:4px;
+	background-color:#FFFF66;
+}
+/*----------------------------------------*/
+.contentContainer
+{
+	float:left;
+	min-width:280px;
+	width:75%;
+	border:1px solid black;
+	font-weight:bold;
+	word-wrap:break-word;
+	background-color:white;
+	opacity:0.90;
+	padding:5px;
+	margin:10px 0px 50px 10px;
+	clear:left;
+}
+/*----------------------------------------*/
+.contentContainerHeader
+{
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size:cover;
+	text-shadow:red 1px 1px;
+	text-align:center;
+	font-size:24px;
+	font-weight:bold;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+/*----------------------------------------*/
+#contactInfoHeader
+{
+	background-image:url(img/notepad_pencil_notebook_7745_1400x1050.jpg);
+}
+
+/*----------------------------------------*/
+#servicesInfoHeader
+{
+	background-image:url(img/kwmotorsportsBackgroundMotorStairs.jpg);
+}
+/*----------------------------------------*/
+#racingInfoHeader
+{
+	background-image:url(img/checkered-flag.jpg);
+}
+/*----------------------------------------*/
+#sponsorInfoHeader
+{
+	background-image:url(img/checkbook.jpg);
+}
+/*----------------------------------------*/
+#scheduleInfoHeader
+{
+	background-image:url(img/calendar.jpg);
+}
+/*----------------------------------------*/
+.sponsorLogos
+{
+	width:100px;
+	height:auto;
+	display:inline-block;
+	background-color:#FF9900;
+	border:1px solid black;
+	border-radius:5px;
+	margin:5px;
+	text-align:center;
+}
+/*----------------------------------------*/
+.adSpace
+{
+	position: relative;
+	border: 1px solid black;
+	background-color: white;
+	opacity: 0.5;
+	height: 300px;
+	width: 150px;
+	margin: 10px;
+	font-size: 10px;
+	text-align: center;
+	float: right;
+	clear: right;
+	z-index:1;
+}
+/*----------------------------------------*/
+.adSpace:hover/*makes ad space less transparent when hovered*/
+{
+	opacity: 1.0;
+}
+/*----------------------------------------*/
+.adSpaceContent/*ad space text at bottom left of ad space div*/
+{
+	position: absolute; bottom: 4px; left: 4px;
+}
+/*----------------------------------------*/
+.footerContainer
+{
+	position:fixed;
+	bottom:0px;
+	width:100%;
+	min-width:600px;
+	clear:both;
+	z-index:3;
+}
+/*----------------------------------------*/
+.footerReferences
+{
+	position:relative;
+	bottom:-120px;
+	float:left;
+	text-align:center;
+	margin-left:10px;
+	margin-right:10px;
+}
+/*----------------------------------------*/
+#socialMediaFooter:hover/*makes full social media div visible on hover*/
+{
+	position:relative;
+	bottom:-70px;
+}
+/*----------------------------------------*/
+.socialMediaButton/*base social media buttons*/
+{
+	height:25px;
+	width:75px;
+	border:3px solid #0000CC;
+	border-radius:10px;
+	margin:0px 10px 15px 10px;
+	text-align:center;
+	line-height:25px;
+	background-color:#0033CC;
+	color:#FFFFFF;
+}
+/*----------------------------------------*/
+.socialMediaButton:hover/*facebook specific button style on hover*/
+{
+	/*replace with pre-built code from social site*/
+	background-color:#003399;
+	border-color:#000099;
+	font-weight:bold;
+}
+/*----------------------------------------*/
+.shopAddressContainer/*container for shop address*/
+{
+	background-color:#3F0;
+	border: 1px solid black;
+	border-radius:5px;
+	padding-left:10px;
+	padding-right:10px;
+	width:inherit;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:15px;
+	text-align:left;
+}
+/*----------------------------------------*/
+#shopAddressFooter:hover/*makes full address div visible on hover*/
+{
+	position:relative;
+	bottom:0px;
+}
+/*----------------------------------------*/
+h4/*styling for footer titles within footer divs*/
+{
+	background-color:white;
+	border: 1px solid black;
+	border-radius:5px;
+}
+/*----------------------------------------*/
+.footerBodySeperator/*keeps the bottom of body elements above the footer*/
+{
+	width:100%;
+	height:25px;
+	clear:both;
+}
+/*----------------------------------------*/

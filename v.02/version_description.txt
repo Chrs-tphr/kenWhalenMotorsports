@@ -1,0 +1,9 @@
+Ken Whalen Motorsports version 2. 
+
+Changed header, nav bar and content from fixed location layout to scrolling with page. 
+
+Set minimum widths of nav buttons and page content.
+
+Set content word wrap to allow word break.
+
+Standardized header and footer acrossed all site pages.
